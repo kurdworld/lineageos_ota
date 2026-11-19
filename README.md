@@ -4,10 +4,10 @@ This repository is the OTA update feed for the unofficial LineageOS 24.0
 builds for the BlackBerry KEY2 (`athena`). The Updater app reads:
 
 ```
-https://raw.githubusercontent.com/kurdworld/lineageos_ota/main/athena-4p19.json
+https://raw.githubusercontent.com/kurdworld/lineageos_ota/main/athena.json
 ```
 
-`athena-4p19.json` uses the JSON format expected by the LineageOS Updater
+`athena.json` uses the JSON format expected by the LineageOS Updater
 (LineageOS 23.2 and newer). Each entry describes one OTA zip.
 
 ## Publishing a build
@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/kurdworld/lineageos_ota/main/athena-4p19.json
 3. Commit and push the updated feed:
 
    ```bash
-   git add athena-4p19.json
+   git add athena.json
    git commit -m "Add 2026-11-20 build"
    git push
    ```

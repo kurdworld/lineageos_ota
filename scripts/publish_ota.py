@@ -6,7 +6,7 @@
 
 The script reads META-INF/com/android/metadata from the zip, so the feed entry
 matches the build that was actually produced. Run it from anywhere; the default
-feed is athena-4p19.json next to this repository's README.
+feed is athena.json next to this repository's README.
 """
 
 import argparse
@@ -18,7 +18,7 @@ import sys
 import zipfile
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DEFAULT_FEED = os.path.join(REPO_ROOT, "athena-4p19.json")
+DEFAULT_FEED = os.path.join(REPO_ROOT, "athena.json")
 DEFAULT_REPO = "kurdworld/lineageos_ota"
 
 
