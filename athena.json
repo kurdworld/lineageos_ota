@@ -1,13 +1,13 @@
 [
   {
-    "datetime": 1795433499,
+    "datetime": 1795439367,
     "files": [
       {
         "filename": "lineage_athena-ota.zip",
         "os_sdk_level": 37,
-        "sha256": "6067c0ff700f802b19b7a1682620e0fd90c247e12c4a02753c60f68a82bf78b6",
-        "size": 1179658519,
-        "url": "https://github.com/kurdworld/lineageos_ota/releases/download/initial-build/lineage_athena-ota.zip",
+        "sha256": "3f25ee9b2fe7f7dfb40e4f3fc1daa62ccc3d0fe06e3fcb3a1d6d3505a53f419b",
+        "size": 1179907062,
+        "url": "https://github.com/kurdworld/lineageos_ota/releases/download/lineage-24.0-20261123-athena/lineage_athena-ota.zip",
         "os_patch_level": "2026-11-01",
         "ota_property_files": "metadata:69:339,metadata.pb:476:228"
       }
