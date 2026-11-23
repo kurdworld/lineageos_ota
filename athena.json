@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "datetime": 1795430396,
+    "files": [
+      {
+        "filename": "lineage-24.0-20261123-UNOFFICIAL-athena.zip",
+        "os_sdk_level": 37,
+        "sha256": "d0b934e1c2141504f4ea360ac779f08ad7779d1ed66e020973a64560c6462fa8",
+        "size": 1179644128,
+        "url": "https://github.com/kurdworld/lineageos_ota/releases/download/initial-build/lineage-24.0-20261123-UNOFFICIAL-athena.zip",
+        "os_patch_level": "2026-11-01",
+        "ota_property_files": "metadata:69:339,metadata.pb:476:228"
+      }
+    ],
+    "type": "UNOFFICIAL",
+    "version": "24.0"
+  }
+]
