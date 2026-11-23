@@ -117,5 +117,8 @@ adds or changes on top of the LineageOS baseline.
 - System update > Recent changes opens the `lineageos_ota` repository's `README.md`, which contains the full LOS24 changelog, instead of the generic download.lineageos.org device changes page.
 
 ### Security and certification
+- Builds are signed with dedicated kurdworld/LineageOS release keys. Private keys live only in the owner-only `$HOME/.lineageos-keys` store and are linked locally as `vendor/lineage-priv/keys`; AOSP test keys, development keys and keys from other projects are not used.
+- Build user and host are fixed to `kurdworld`/`lineageos`, so the local account never appears in build properties or fingerprints.
+- The build and publish scripts refuse test-key output; the publisher checks the OTA certificate before touching the feed.
 - SELinux stays enforcing with rules for diagnostics, camera, LED, fingerprint and storage.
 - The device passes Play certification with the new CTS overlay.
