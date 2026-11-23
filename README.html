@@ -663,6 +663,7 @@
             <li>Builds are signed with dedicated kurdworld/LineageOS release keys. Private keys live only in the owner-only <code>$HOME/.lineageos-keys</code> store and are linked locally as <code>vendor/lineage-priv/keys</code>; AOSP test keys, development keys and keys from other projects are not used.</li>
             <li>Build user and host are fixed to <code>kurdworld</code>/<code>lineageos</code>, so the local account never appears in build properties or fingerprints.</li>
             <li>The build and publish scripts refuse test-key output; the publisher checks the OTA certificate before touching the feed.</li>
+            <li>SELinux <code>mac_permissions.xml</code> generation uses the kurdworld <code>releasekey</code> certificate instead of a missing AOSP <code>testkey</code> path, so release builds no longer need any test key in the private key store.</li>
             <li>SELinux stays enforcing with rules for diagnostics, camera, LED, fingerprint and storage.</li>
             <li>The device passes Play certification with the new CTS overlay.</li>
           </ul>
