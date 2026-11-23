@@ -113,6 +113,9 @@ adds or changes on top of the LineageOS baseline.
 - Settings rows use a 60dp height with 8dp text padding, so the root page and every submenu are a little more compact without feeling cramped.
 - `mq-deadline` with 128 KB read-ahead after boot reduces Settings scrolling jank.
 
+### Updater
+- System update > Recent changes opens the `lineageos_ota` repository's `README.md`, which contains the full LOS24 changelog, instead of the generic download.lineageos.org device changes page.
+
 ### Security and certification
 - SELinux stays enforcing with rules for diagnostics, camera, LED, fingerprint and storage.
 - The device passes Play certification with the new CTS overlay.
